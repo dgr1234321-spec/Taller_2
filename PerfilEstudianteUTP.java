@@ -24,7 +24,7 @@ public class PerfilEstudianteUTP {
 
         // TODO 2.5: Declara una variable de tipo char con la inicial del segundo nombre
         // Nombre de variable: inicialSegundoNombre | Valor de prueba: 'M'
-        char inicialSegundoNombre  'E'; 
+        char inicialSegundoNombre = "E";  
 
 
         // ==============================================================
@@ -43,7 +43,7 @@ public class PerfilEstudianteUTP {
         
         // TODO 4: Utiliza tus variables y constantes corregidas para calcular subtotal y total
         double subtotalMatricula = creditosmatriculados * costoCredito;
-        double totalPagar = subtotalMatricula + carnet_estudiantil;
+        double totalPagar + = CARNET_ESTUDIANTIL;
 
         System.out.println("==========================================");
         System.out.println("    FICHA DE MATRÍCULA ESTUDIANTIL UTP");
