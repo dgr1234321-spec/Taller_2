@@ -1,6 +1,6 @@
 /*
  * TODO 1 (NIVEL 2 - Javadoc): Convierte este comentario de bloque a un comentario Javadoc oficial (/** ... */)
- * Incluye las etiquetas @author (tu Nombre y Cédula) y @version 1.0 
+ /** Incluye las etiquetas @author (Diego Rodriguez y 8-1051-933) y @version 1.0...
  */
 public class PerfilEstudianteUTP {
 
@@ -11,20 +11,20 @@ public class PerfilEstudianteUTP {
         // ==============================================================
         
         // TODO 2.1: Corrige este identificador ilegal (inicia con un número) a camelCase
-        String 1erNombre = "Carlos Pérez";
+        String 1erNombre = "Diego Rodriguez";
 
         // TODO 2.2: Corrige este identificador ilegal (usa un guion medio) a camelCase
-        int creditos-matriculados = 18;
+        int creditosmatriculados = 18;
 
         // TODO 2.3: Corrige el tipo de dato para almacenar el costo exacto con decimales (15.50)
-        int costoCredito = 15.50;
+        double costoCredito = 15.50;
 
         // TODO 2.4: Corrige el tipo de dato al tipo primitivo boolean (sin comillas de texto)
-        String estaPazYSalvo = "true";
+        boolean estaPazYSalvo = true;
 
         // TODO 2.5: Declara una variable de tipo char con la inicial del segundo nombre
         // Nombre de variable: inicialSegundoNombre | Valor de prueba: 'M'
-        
+        char inicialSegundoNombre  'E'; 
 
 
         // ==============================================================
@@ -32,10 +32,9 @@ public class PerfilEstudianteUTP {
         // ==============================================================
         
         // TODO 3.1: Declara la constante de la cuota con 'final' y convención UPPER_SNAKE_CASE (5.00)
-        double carnet_estudiantil = 5.00;
+        double = CARNET_ESTUDIANTIL = 5.00; 
 
         // TODO 3.2: Elimina la siguiente línea que viola la inmutabilidad de la constante
-        carnet_estudiantil = 10.00;
 
 
         // ==============================================================
@@ -43,7 +42,7 @@ public class PerfilEstudianteUTP {
         // ==============================================================
         
         // TODO 4: Utiliza tus variables y constantes corregidas para calcular subtotal y total
-        double subtotalMatricula = creditos-matriculados * costoCredito;
+        double subtotalMatricula = creditosmatriculados * costoCredito;
         double totalPagar = subtotalMatricula + carnet_estudiantil;
 
         System.out.println("==========================================");
