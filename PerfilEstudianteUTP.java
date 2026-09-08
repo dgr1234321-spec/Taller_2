@@ -11,7 +11,7 @@ public class PerfilEstudianteUTP {
         // ==============================================================
         
         // TODO 2.1: Corrige este identificador ilegal (inicia con un número) a camelCase
-        String 1erNombre = "Diego Rodriguez";
+        String erNombre = "Diego Rodriguez";
 
         // TODO 2.2: Corrige este identificador ilegal (usa un guion medio) a camelCase
         int creditosmatriculados = 18;
