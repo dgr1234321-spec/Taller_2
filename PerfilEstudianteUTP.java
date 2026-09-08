@@ -43,7 +43,7 @@ public class PerfilEstudianteUTP {
         
         // TODO 4: Utiliza tus variables y constantes corregidas para calcular subtotal y total
         double subtotalMatricula = creditosmatriculados * costoCredito;
-        double totalPagar + = CARNET_ESTUDIANTIL;
+        double totalPagar + = subtotalMatricula;
 
         System.out.println("==========================================");
         System.out.println("    FICHA DE MATRÍCULA ESTUDIANTIL UTP");
